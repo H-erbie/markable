@@ -9,7 +9,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 const SiteFooter = () => {
   const socials = [
-    <Youtube/>, <Twitter/>, <Facebook/>, <Instagram/>
+    <Youtube key="utube"/>, <Twitter key="twi"/>, <Facebook key="fb"/>, <Instagram key="ig"/>
   ]
   const permalinks = [
     {

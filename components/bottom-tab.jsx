@@ -19,7 +19,7 @@ import InputSearch from './input-search';
 const BottomTab = () => {
     const [showSearch, setShowSearch] = useState(false)
 
-    const bottomTabLinks = [<Home/>,<LayoutGrid/>, <Telescope/>, ]
+    const bottomTabLinks = [<Home key="home" />, <LayoutGrid key="layout-grid" />, <Telescope key="telescope" /> ]
   return (
     <div className='bottom-0 sm:bottom-5 lg:hidden flex-col sm:rounded-3xl gap-y-3 p-3 border-t bg-white fixed  w-full sm:w-[40%] sm:left-[30%] flex '>
                             <InputSearch showSearch={showSearch} setShowSearch={setShowSearch} comp='bottom-tab'/>

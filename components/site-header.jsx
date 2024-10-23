@@ -35,7 +35,7 @@ const SiteHeader = () => {
     
 
     const sheetHead = [
-        <Bell />, <Mail />, <Zap />
+        <Bell key="bell"/>, <Mail key="mail"/>, <Zap key="zap"/>
     ]
     return (
         <NavigationMenu className="sm:fixed transition-all py-3 top-0 z-40 w-screen  bg-white  border-b-[0.01px] border-gray-200 px-5  flex flex-col">

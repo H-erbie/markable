@@ -12,7 +12,7 @@ import ProfileCompNobtn from '@/components/profile-comp-nobtn';
 import ProfileCompbtn from '@/components/profile-comp-btn';
 const Page = () => {
   const socials = [
-    <Youtube />, <Twitter />, <Facebook />, <Instagram />
+    <Youtube key="utube"/>, <Twitter key="twi"/>, <Facebook key="fb"/>, <Instagram key="ig"/>
   ]
 
   return (
